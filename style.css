@@ -1,3 +1,11 @@
+:root{
+  --txtColor: #fbf7f5;
+  --headingColor: #24496e;
+  --backColor: #617384;
+  --pageBackColor: #c6c7c1;
+
+}
+
 *,
 *::before,
 *::after {
@@ -10,6 +18,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: var(--pageBackColor);
 }
 
 body {
@@ -27,15 +36,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: var(--headingColor);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  color: var(--txtColor);
+  background-color: var(--backColor);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -97,6 +106,19 @@ button[disabled] {
   float: right;
 }
 
+.recipe {
+  display:block;
+  max-width:500px;
+  line-height: 2rem;
+  text-align: right;
+  width: 75%;
+  padding-bottom: 1.5rem;
+}
+
+#lengthSlider {
+  width: 40%;
+}
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -128,6 +150,11 @@ button[disabled] {
   #password {
     font-size: 1rem;
   }
+
+  .slider1 {
+    width: 200px;
+  }
+  
 }
 
 @media (max-width: 500px) {
