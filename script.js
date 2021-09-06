@@ -66,6 +66,7 @@ function generatePassword(){
 
   }// End of function
 
+  
 //code to return the slider value to html - courtesy w3schools.com
 var slider = document.getElementById("lengthSlider");
 var output = document.getElementById("sliderValue");

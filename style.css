@@ -161,4 +161,8 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+  .recipe {
+    font-size: .8rem;
+    width: 85%;
+  }
 }

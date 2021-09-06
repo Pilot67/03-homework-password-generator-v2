@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <Section class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
+
+      <main class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
@@ -25,7 +26,7 @@
           ></textarea>
         </div>
         <!-- Add in password recipe -->
-        <div class = "recipe">
+        <section class = "recipe">
           
           <!-- <p id=sliderValue>12</p> -->
           <label id= "sliderValue" for="lengthSlider">Length of password = 12</label>
@@ -51,12 +52,12 @@
           <label for="useSpecialChars">Use Special (!@#$) Charaters</label>
           <input class="charCheckboxes" type="checkbox" id="useSpecialChars" checked="true">
           
-        </div>
+        </section>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
-      </div>
-    </div>
+      </main>
+    </Section>
     <script src="script.js"></script>
   </body>
 </html>
