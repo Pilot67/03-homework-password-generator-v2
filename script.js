@@ -58,7 +58,7 @@ function generatePassword(){
     //for loop to generate the password
     for (i=0; i<pwdParameters.length; i++) {
       char = Math.floor(Math.random()*usableChars.usableCharArray.length);
-      generatedPassword = generatedPassword + usableChars.usableCharArray[char];
+      generatedPassword += usableChars.usableCharArray[char];
     }
 
     //Return the final generated password
