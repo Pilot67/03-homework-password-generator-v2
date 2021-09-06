@@ -35,5 +35,5 @@ Published page: (https://pilot67.github.io/03-homework-password-generator-v2/)
   
 # Acknowledgements
 * [w3schools range slider](https://www.w3schools.com/howto/howto_js_rangeslider.asp)  
-
+* [README.md template](https://github.com/othneildrew/Best-README-Template)
 
