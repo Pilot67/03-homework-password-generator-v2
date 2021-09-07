@@ -12,12 +12,12 @@ Using the slider, slide left or right to set the desired password length. The mi
 Additional selection criteria are available by turining on or off the chechboxes for lower case, upper case, numbers and special charaters.  
 &nbsp;  
 &nbsp;  
+![Screen Shot 2021-09-07 at 12 23 50 pm](https://user-images.githubusercontent.com/86697483/132274713-1cb47e54-1a84-44bc-ba3e-390269fde3e8.png)  
+When only 1 checkbox is selected, it will be disabled confirming 1 checkbox is always selected.  
+&nbsp;  
+&nbsp;  
 ![Screen Shot 2021-09-06 at 12 33 49 pm](https://user-images.githubusercontent.com/86697483/132152483-1c03a5b9-65af-472d-a3d6-9426733de041.png)  
 Press the "Generate Password" button and a random secure password will be displayed in the text box. You can copy this text as reqired.  
-&nbsp;  
-&nbsp;  
-![Screen Shot 2021-09-06 at 12 39 31 pm](https://user-images.githubusercontent.com/86697483/132153005-b575263f-7bf0-4390-b9b8-6552efe7d733.png)  
-If no checkboxes are selected, a screen alert will let you know nothing has been selected.  
 &nbsp;  
 &nbsp;  
 # Built With
