@@ -27,8 +27,8 @@ Press the "Generate Password" button and a random secure password will be displa
 &nbsp;  
 &nbsp;  
 # Links
-Project Link: (https://github.com/Pilot67/03-homework-password-generator-v2)  
-Published page: (https://pilot67.github.io/03-homework-password-generator-v2/)  
+Project Link: https://github.com/Pilot67/03-homework-password-generator-v2  
+Published page: https://pilot67.github.io/03-homework-password-generator-v2/  
 &nbsp;  
 &nbsp;  
 # Acknowledgements
