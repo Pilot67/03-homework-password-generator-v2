@@ -9,7 +9,7 @@ This is a random password generator which will generate passwords between 8 and 
 ![Screen Shot 2021-09-06 at 12 36 13 pm](https://user-images.githubusercontent.com/86697483/132152651-20256fae-6d49-436e-b7cc-143d7d2074bd.png)  
 Using the slider, slide left or right to set the desired password length. The minimum value is 8 and the maximum is 128. The length is displayed to the left of the slider.
 &nbsp;  
-Additional selection criteria are available by turining on or off the chechboxes for lower case, upper case, numbers and special charaters.  
+Additional selection criteria are available by turning on or off the checkboxes for lower case, upper case, numbers and special charaters.  
 &nbsp;  
 &nbsp;  
 ![Screen Shot 2021-09-07 at 12 23 50 pm](https://user-images.githubusercontent.com/86697483/132274713-1cb47e54-1a84-44bc-ba3e-390269fde3e8.png)  
