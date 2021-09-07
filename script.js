@@ -74,3 +74,29 @@ var output = document.getElementById("sliderValue");
 slider.oninput = function() {
   output.innerHTML = "Password length = " + this.value;
 }
+
+
+// this code below to interrogate checkboxes
+var clkLowerCase = document.querySelector("#useLowerCase");
+clkLowerCase.addEventListener("click",lowerCaseSelected);
+
+function lowerCaseSelected(){
+  var tf=0;
+  var ckBox = document.querySelectorAll(".charCheckboxes");
+  for (var i=0; i < ckBox.length; i++) {
+    tf += ckBox[i].checked;
+  }
+  if (tf > 1) {
+    for (var i = 0; i < ckBox.length; i++){
+      // set enabled here
+      ckBox[i].disabled=false;
+    }
+  }else {
+    for (var i = 0; i < ckBox.length; i++){
+      // set Disabled here
+      if (ckBox[i].checked){
+        ckBox[i].disabled=true;
+      }
+    }
+  }
+} //End of function
