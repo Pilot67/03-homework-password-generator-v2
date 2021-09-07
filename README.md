@@ -13,7 +13,7 @@ Additional selection criteria are available by turning on or off the checkboxes 
 &nbsp;  
 &nbsp;  
 ![Screen Shot 2021-09-07 at 3 34 29 pm](https://user-images.githubusercontent.com/86697483/132289770-2c1b0402-b8a2-4cd6-8591-70a0279f5bd7.png)  
-At least 1 set of characters is require. The system will not let you choose less than 1 set.  
+At least 1 set of characters is required. The system will not let you choose less than 1 set.  
 &nbsp;  
 &nbsp;  
 ![Screen Shot 2021-09-06 at 12 33 49 pm](https://user-images.githubusercontent.com/86697483/132152483-1c03a5b9-65af-472d-a3d6-9426733de041.png)  
