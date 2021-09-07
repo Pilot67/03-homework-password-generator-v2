@@ -27,11 +27,11 @@
         </div>
         <!-- Add in password recipe -->
         <section class = "recipe">
-          <!-- <p id=sliderValue>12</p> -->
-          <label id= "sliderValue" for="lengthSlider">
-            <span>Length of password = 12</span>
-            <input class="slider1" type="range" id="lengthSlider" min="8" max="128" value="12" >
-          </label>
+          <!-- Slider for password length -->
+          <div>
+            <label id= "sliderValue" for="lengthSlider">Length of password = 12</label>
+            <input class="slider1" type="range" id="lengthSlider" min="8" max="128" value="12">
+          </div>       
           <!-- Checkbox for using lower case charateres -->
           <label for="useLowerCase">
             <span>Use Lowercase Charaters</span>
@@ -39,7 +39,7 @@
           </label>
           <!-- Checkbox for using Upper case charateres -->
           <label for="useUpperCase">
-            <span> Use UPPERCASE Charaters</span>
+            <span>Use UPPERCASE Charaters</span>
             <input class="charCheckboxes" type="checkbox" id="useUpperCase" checked="true">
         </label>
           <!-- Checkbox for using number charateres -->

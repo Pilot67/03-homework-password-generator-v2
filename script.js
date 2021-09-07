@@ -70,11 +70,11 @@ function generatePassword(){
 
   
 //code to return the slider value to html
-var slider = document.getElementById("lengthSlider");
-var output = document.getElementById("sliderValue");
+var slider = document.querySelector("#lengthSlider");
+var output = document.querySelector("#sliderValue");
 
 slider.oninput = function() {
-  output.innerHTML = "Password length = " + this.value;
+  output.textContent = "Password length = " + this.value;
 }
 
 // function to check if only 1 checkbox is checked and disable it.
