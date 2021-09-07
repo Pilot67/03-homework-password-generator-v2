@@ -77,12 +77,18 @@ slider.oninput = function() {
 
 
 // this code below to interrogate checkboxes
-var clkLowerCase = document.querySelector("#useLowerCase");
-clkLowerCase.addEventListener("click",lowerCaseSelected);
+//var clkLowerCase = document.querySelector("#useLowerCase");
+//clkLowerCase.addEventListener("click",checkboxSelected);
 
-function lowerCaseSelected(){
+var ckBox = document.querySelectorAll(".charCheckboxes");
+ckBox[0].addEventListener("click",checkboxSelected);
+ckBox[1].addEventListener("click",checkboxSelected);
+ckBox[2].addEventListener("click",checkboxSelected);
+ckBox[3].addEventListener("click",checkboxSelected);
+
+
+function checkboxSelected(){
   var tf=0;
-  var ckBox = document.querySelectorAll(".charCheckboxes");
   for (var i=0; i < ckBox.length; i++) {
     tf += ckBox[i].checked;
   }
