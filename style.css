@@ -107,7 +107,8 @@ button[disabled] {
 }
 
 .recipe {
-  display:block;
+  display:flex;
+  flex-direction: column;
   max-width:500px;
   line-height: 2rem;
   text-align: right;

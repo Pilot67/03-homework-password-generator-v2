@@ -27,32 +27,31 @@
         </div>
         <!-- Add in password recipe -->
         <section class = "recipe">
-          
           <!-- <p id=sliderValue>12</p> -->
-          <label id= "sliderValue" for="lengthSlider">Length of password = 12</label>
-          <input class="slider1" type="range" id="lengthSlider" min="8" max="128" value="12" >
-
-          <br>
-          <div class="checkboxWrapper">
-          <label for="useLowerCase">Use Lowercase Charaters</label>
-          <input class="charCheckboxes" type="checkbox" id="useLowerCase" checked="true">
-
-          <br>
-
-          <label for="useUpperCase">Use UPPERCASE Charaters</label>
-          <input class="charCheckboxes" type="checkbox" id="useUpperCase" checked="true">
-
-          <br>
-
-          <label for="UseNumbers">Use Numbers Charaters</label>
-          <input class="charCheckboxes" type="checkbox" id="UseNumberChars" checked="true">
-
-          <br>
-
-          <label for="useSpecialChars">Use Special (!@#$) Charaters</label>
-          <input class="charCheckboxes" type="checkbox" id="useSpecialChars" checked="true">
-          </div>
-          
+          <label id= "sliderValue" for="lengthSlider">
+            <span>Length of password = 12</span>
+            <input class="slider1" type="range" id="lengthSlider" min="8" max="128" value="12" >
+          </label>
+          <!-- Checkbox for using lower case charateres -->
+          <label for="useLowerCase">
+            <span>Use Lowercase Charaters</span>
+            <input class="charCheckboxes" type="checkbox" id="useLowerCase" checked="true">
+          </label>
+          <!-- Checkbox for using Upper case charateres -->
+          <label for="useUpperCase">
+            <span> Use UPPERCASE Charaters</span>
+            <input class="charCheckboxes" type="checkbox" id="useUpperCase" checked="true">
+        </label>
+          <!-- Checkbox for using number charateres -->
+          <label for="UseNumbers">
+            <span>Use Number Charaters</span>
+            <input class="charCheckboxes" type="checkbox" id="UseNumberChars" checked="true">
+          </label>
+          <!-- Checkbox for using special charateres -->
+          <label for="useSpecialChars">
+            <span>Special (!@#$) Charaters</span>
+            <input class="charCheckboxes" type="checkbox" id="useSpecialChars" checked="true">
+          </label>
         </section>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
