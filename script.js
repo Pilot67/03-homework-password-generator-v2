@@ -1,15 +1,23 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// ckBox to interrogate checkboxes
+var ckBox = document.querySelectorAll(".charCheckboxes");
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
+// make the event for checkboxes and maake dynamic
+for (var i=0; i < ckBox.length; i++) {
+  ckBox[i].addEventListener("click",checkboxSelected);
+}
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
 
 function generatePassword(){
   // declare some local variables
@@ -35,12 +43,6 @@ function generatePassword(){
     pwdParameters.useNumbers = document.getElementById("UseNumberChars").checked;
     pwdParameters.useSpecial = document.getElementById("useSpecialChars").checked;
   
-    // Check at least 1 set of chareters has been selected
-    if (!(pwdParameters.useLowercase || pwdParameters.useUppercase || pwdParameters.useNumbers || pwdParameters.useSpecial)) {
-      alert("Nothing selected\nYou must choose at least 1 set of charaters");
-      return null;
-    }
-
     //Generate the usabelChar array based on checkbox informtion
     if (pwdParameters.useLowercase) {
         usableChars.usableCharArray = usableChars.usableCharArray.concat(usableChars.lowerCaseChars);
@@ -67,7 +69,7 @@ function generatePassword(){
   }// End of function
 
   
-//code to return the slider value to html - courtesy w3schools.com
+//code to return the slider value to html
 var slider = document.getElementById("lengthSlider");
 var output = document.getElementById("sliderValue");
 
@@ -75,24 +77,14 @@ slider.oninput = function() {
   output.innerHTML = "Password length = " + this.value;
 }
 
-
-// this code below to interrogate checkboxes
-//var clkLowerCase = document.querySelector("#useLowerCase");
-//clkLowerCase.addEventListener("click",checkboxSelected);
-
-var ckBox = document.querySelectorAll(".charCheckboxes");
-ckBox[0].addEventListener("click",checkboxSelected);
-ckBox[1].addEventListener("click",checkboxSelected);
-ckBox[2].addEventListener("click",checkboxSelected);
-ckBox[3].addEventListener("click",checkboxSelected);
-
-
+// function to check if only 1 checkbox is checked and disable it.
+// re-enable all checkboxes if more than 1 is checked
 function checkboxSelected(){
-  var tf=0;
+  var ckTrue=0;
   for (var i=0; i < ckBox.length; i++) {
-    tf += ckBox[i].checked;
+    ckTrue += ckBox[i].checked;
   }
-  if (tf > 1) {
+  if (ckTrue > 1) {
     for (var i = 0; i < ckBox.length; i++){
       // set enabled here
       ckBox[i].disabled=false;
