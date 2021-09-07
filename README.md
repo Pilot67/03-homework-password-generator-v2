@@ -3,17 +3,17 @@ Homework 03 - Build a password generator in javascript with HTML integration
 
 # About
 This is a random password generator which will generate passwords between 8 and 128 characters long.  
-![Screen Shot 2021-09-06 at 9 21 21 am](https://user-images.githubusercontent.com/86697483/132151361-c3c1a649-8ee0-43cc-8a1f-0c095ec2fa05.png)  
+![Screen Shot 2021-09-07 at 3 34 05 pm](https://user-images.githubusercontent.com/86697483/132289849-f2db1d93-949d-4645-988f-17129230fb57.png)  
 &nbsp;  
 # Usage
-![Screen Shot 2021-09-06 at 12 36 13 pm](https://user-images.githubusercontent.com/86697483/132152651-20256fae-6d49-436e-b7cc-143d7d2074bd.png)  
+![Screen Shot 2021-09-07 at 3 34 16 pm](https://user-images.githubusercontent.com/86697483/132289819-c9854026-d6b9-4e57-b350-f341e12e7bde.png)  
 Using the slider, slide left or right to set the desired password length. The minimum value is 8 and the maximum is 128. The length is displayed to the left of the slider.
 &nbsp;  
 Additional selection criteria are available by turning on or off the checkboxes for lower case, upper case, numbers and special charaters.  
 &nbsp;  
 &nbsp;  
-![Screen Shot 2021-09-07 at 12 23 50 pm](https://user-images.githubusercontent.com/86697483/132274713-1cb47e54-1a84-44bc-ba3e-390269fde3e8.png)  
-When only 1 checkbox is selected, it will be disabled confirming 1 checkbox is always selected.  
+![Screen Shot 2021-09-07 at 3 34 29 pm](https://user-images.githubusercontent.com/86697483/132289770-2c1b0402-b8a2-4cd6-8591-70a0279f5bd7.png)  
+At least 1 set of characters is require. The system will not let you choose less than 1 set.  
 &nbsp;  
 &nbsp;  
 ![Screen Shot 2021-09-06 at 12 33 49 pm](https://user-images.githubusercontent.com/86697483/132152483-1c03a5b9-65af-472d-a3d6-9426733de041.png)  
